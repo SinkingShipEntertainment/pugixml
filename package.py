@@ -41,8 +41,8 @@ def pre_build_commands():
 
 def commands():
     env.PUGIXML_LOCATION = "{root}"
-    env.PUGIXML_ROOT = "{root}"
-    env.PUGIXML_INCLUDE_DIR = "{root}/include"
-    env.PUGIXML_LIBRARY_DIR = "{root}/lib64"
+    env.pugixml_ROOT = "{root}"
+    env.pugixml_INCLUDE_DIR = "{root}/include"
+    env.pugixml_LIBRARY_DIR = "{root}/lib64"
 
     env.LD_LIBRARY_PATH.prepend("{root}/lib64")
